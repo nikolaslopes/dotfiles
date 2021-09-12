@@ -22,12 +22,7 @@
   "extensions.ignoreRecommendations": true,
   
   // VSCode stuff
-  "terminal.integrated.profiles.linux": {
-    "zsh (login)": {
-      "path": "zsh",
-      "args": ["-l"]
-    }
-  },
+  "terminal.integrated.defaultProfile.linux": "zsh",
   "breadcrumbs.enabled": true,
   "explorer.compactFolders": false,
   "explorer.confirmDragAndDrop": false,
@@ -64,5 +59,4 @@
   "workbench.editor.untitled.hint": "hidden",
   "polacode.transparentBackground": true,
   "polacode.shadow": "rgba(0, 0, 0, 0) 0px 0 0",
-  "terminal.integrated.defaultProfile.linux": "zsh"
 }
