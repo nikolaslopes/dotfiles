@@ -1,13 +1,23 @@
 {
   // Workbench
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Night Owl",
+  "workbench.colorTheme": "Dracula Pro",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
-  "workbench.tree.indent": 15,
+  "workbench.tree.indent": 12,
   "workbench.colorCustomizations": {
-
+    "activityBarBadge.background": "#896CEB",
+    "list.activeSelectionForeground": "#896CEB",
+    "list.inactiveSelectionForeground": "#896CEB",
+    "list.highlightForeground": "#896CEB",
+    "scrollbarSlider.activeBackground": "#896CEB",
+    "editorSuggestWidget.highlightForeground": "#896CEB",
+    "textLink.foreground": "#896CEB",
+    "progressBar.background": "#896CEB",
+    "pickerGroup.foreground": "#896CEB",
+    "tab.activeBorder": "#896CEB",
+    "notificationLink.foreground": "#896CEB",
   },
   
   // Editor settings
@@ -23,7 +33,7 @@
   "editor.parameterHints.enabled": false,
   "editor.semanticHighlighting.enabled": true,
   "editor.bracketPairColorization.enabled": true,
-  "bracketPairColorizer.forceIterationColorCycle": true,
+  "bracketPairColorizer.forceIterationColorCycle": false,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
@@ -78,4 +88,7 @@
   "git.confirmSync": false,
   "editor.inlineSuggest.enabled": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 }
