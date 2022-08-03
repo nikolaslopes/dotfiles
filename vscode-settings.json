@@ -1,24 +1,39 @@
 {
-  // Workbench
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Dracula Pro",
+  "workbench.colorTheme": "Omni",
   "workbench.editor.labelFormat": "short",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.editor.untitled.hint": "hidden",
   "workbench.tree.indent": 12,
   "workbench.colorCustomizations": {
-    "activityBarBadge.background": "#896CEB",
-    "list.activeSelectionForeground": "#896CEB",
-    "list.inactiveSelectionForeground": "#896CEB",
-    "list.highlightForeground": "#896CEB",
-    "scrollbarSlider.activeBackground": "#896CEB",
-    "editorSuggestWidget.highlightForeground": "#896CEB",
-    "textLink.foreground": "#896CEB",
-    "progressBar.background": "#896CEB",
-    "pickerGroup.foreground": "#896CEB",
-    "tab.activeBorder": "#896CEB",
-    "notificationLink.foreground": "#896CEB"
+    "titleBar.activeBackground": "#8258e5",
+    "titleBar.inactiveBackground": "#282a36",
+    "titleBar.activeForeground": "#8258e5",
+    "titleBar.inactiveForeground": "#fefefe",
+
+    // Terminal settings
+    "terminal.border": "#8258e5",
+    "terminal.selectionBackground": "#fcfcfc",
+    "terminal.background": "#282a36",
+    "terminal.foreground": "#fe7ac6",
+    "terminal.ansiBlue": "#8258e5",
+    "terminal.ansiBrightBlue": "#77dcff",
+    "terminal.ansiCyan": "#a3e9d4",
+    "terminal.ansiBrightCyan": "#a3e9d5",
+    "terminal.ansiGreen": "#68f400",
+    "terminal.ansiBrightGreen": "#dcf152",
+    "terminal.ansiMagenta": "#f58a8d",
+    "terminal.ansiBrightMagenta": "#ffb4b8",
+    "terminal.ansiRed": "#5fd9fb",
+    "terminal.ansiBrightRed": "#5fd9fb",
+    "terminal.ansiYellow": "#fcfcfc",
+    "terminal.ansiBrightYellow": "#8258e5"
   },
+
+  // Terminal settings
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.cursorWidth": 2,
 
   // Editor settings
   "editor.wordWrap": "on",
@@ -35,7 +50,7 @@
   "editor.bracketPairColorization.enabled": true,
   "bracketPairColorizer.forceIterationColorCycle": false,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll.eslint": true
   },
 
   // VSCode stuff
@@ -53,6 +68,7 @@
 
   // Extensions
   "extensions.ignoreRecommendations": true,
+  "prettier.singleQuote": true,
   "diffEditor.ignoreTrimWhitespace": false,
   "material-icon-theme.folders.associations": {
     "domain": "core",
@@ -77,18 +93,12 @@
   },
   "polacode.transparentBackground": true,
   "polacode.shadow": "none",
-  "github.copilot.enable": {
-    "*": true,
-    "yaml": false,
-    "plaintext": true,
-    "markdown": false
-  },
   "gitlens.defaultDateFormat": null,
   "gitlens.hovers.currentLine.over": "line",
   "liveServer.settings.donotShowInfoMsg": true,
   "git.confirmSync": false,
   "editor.inlineSuggest.enabled": true,
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
+
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -104,4 +114,50 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "prettier.semi": false,
+  "material-icon-theme.folders.color": "#633bbc",
+  "git.autofetch": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "sonarlint.ls.javaHome": "c:\\Users\\nikolas.alencar\\.vscode\\extensions\\sonarsource.sonarlint_managed-jre\\jre\\jdk-11.0.14.1+1-jre",
+  "sonarlint.rules": {
+    "typescript:S3358": {
+      "level": "off"
+    }
+  },
+  "editor.formatOnSave": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.profiles.osx": {
+    "bash": {
+      "path": "bash",
+      "args": ["-l"],
+      "icon": "terminal-bash"
+    },
+    "zsh": {
+      "path": "zsh",
+      "args": ["-l"]
+    },
+    "fish": {
+      "path": "fish",
+      "args": ["-l"]
+    },
+    "tmux": {
+      "path": "tmux",
+      "icon": "terminal-tmux"
+    },
+    "pwsh": {
+      "path": "pwsh",
+      "icon": "terminal-powershell"
+    },
+    "nicks": {
+      "path": "/bin/zsh",
+      "args": ["-l"]
+    }
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
 }
