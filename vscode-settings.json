@@ -13,7 +13,6 @@
     // Terminal settings
     "terminal.border": "#8258e5",
     "terminal.selectionBackground": "#fcfcfc",
-    "terminal.background": "#282a36",
     "terminal.foreground": "#fe7ac6",
     "terminal.ansiBlue": "#8258e5",
     "terminal.ansiBrightBlue": "#77dcff",
@@ -115,7 +114,6 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
-  "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "prettier.semi": false,
   "material-icon-theme.folders.color": "#633bbc",
