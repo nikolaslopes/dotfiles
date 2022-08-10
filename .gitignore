@@ -21,6 +21,8 @@ lerna-debug.log*
 *.njsproj
 *.sln
 *.sw?
+dist
+dist-ssr
 
 # react DevTools
 packages/react-devtools-core/dist
