@@ -1,2 +1,2 @@
 # dotfiles
-My settigns.
+My settigns
